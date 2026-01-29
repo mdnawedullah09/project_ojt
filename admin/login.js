@@ -4,7 +4,7 @@ document.getElementById("loginBtn").addEventListener("click", () => {
   const error = document.getElementById("errorMsg");
 
   if (user != "" && pass != "") {
-    window.location.href = "dashboard.html";
+    window.location.href = "admin.html";
   } else {
     error.textContent = " Invalid username or password";
   }
