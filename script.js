@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Track Vehicles - New tab
   document.getElementById("btnTrackVehicles").addEventListener("click", () => {
-    window.open("../track/track.html", "_blank");
+    window.open("../track.html", "_blank");
   });
 
   // Navbar smooth scrolling
